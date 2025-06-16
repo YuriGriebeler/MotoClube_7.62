@@ -1,0 +1,202 @@
+body {
+  background-color: #1a1a1a;
+  color: #e5e7eb;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+}
+
+section, nav, footer {
+  background-image: url('https://www.transparenttextures.com/patterns/metal.png');
+  background-blend-mode: overlay;
+}
+
+.logo-placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: 4px solid #4b4b4b;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 4rem;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.logo-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../imagens/fundo-home.png');
+  background-size: cover;
+  background-position: center;
+  border-bottom: 5px solid #4b4b4b;
+}
+
+.gallery-image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  filter: sepia(20%) brightness(90%);
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  border: 3px solid #22c55e;
+  filter: sepia(0%) brightness(100%);
+}
+
+.rustic-btn {
+  background-color: #22c55e;
+  color: #1a1a1a;
+  font-size: 1.2rem;
+  border: 3px solid #4b4b4b;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.rustic-btn:hover {
+  background-color: #1a1a1a;
+  color: #22c55e;
+  border-color: #22c55e;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+  font-size: 1.3rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover {
+  color: #22c55e;
+  text-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
+}
+
+/* Estilo para a navbar sumir/reaparecer */
+nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+}
+
+/* Estilos para os botões de redes sociais */
+.social-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.social-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.social-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.instagram-button {
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-link {
+  color: #22c55e;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #16a34a;
+}
+
+/* Estilos para a seção de hierarquia */
+.member-card {
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+}
+
+.member-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #22c55e;
+  overflow: hidden;
+  margin: 0 auto 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-name {
+  color: #22c55e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.member-role {
+  color: #e5e7eb;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.member-description {
+  color: #9ca3af;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.hierarchy-title {
+  font-size: 2.5rem;
+  color: #22c55e;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+} 

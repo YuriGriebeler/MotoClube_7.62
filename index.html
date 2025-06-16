@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moto Clube 7.62 - Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="bg-black bg-opacity-90 fixed w-full top-0 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-24">
+        <div class="flex items-center">
+          <div class="logo-placeholder">
+            <img src="imagens/logo-moto-clube.png" alt="Logo do Moto Clube 7.62">
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a href="#home" class="text-gray-300 hover:text-green-500 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="#sobre" class="text-gray-300 hover:text-green-500 px-3 py-2 text-sm font-medium">Sobre Nós</a>
+          <a href="#eventos" class="text-gray-300 hover:text-green-500 px-3 py-2 text-sm font-medium">Eventos</a>
+          <a href="#galeria" class="text-gray-300 hover:text-green-500 px-3 py-2 text-sm font-medium">Galeria</a>
+          <a href="#hierarquia" class="text-gray-300 hover:text-green-500 px-3 py-2 text-sm font-medium">Hierarquia</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section h-screen flex items-center justify-center text-center">
+  </section>
+
+  <!-- Sobre Nós -->
+  <section id="sobre" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-green-500 mb-8 text-center tracking-wide">Nossa História</h2>
+      <p class="text-gray-300 text-xl leading-relaxed">
+        Somos o Moto Clube 7.62, uma irmandade forjada na estrada. Com o ronco dos motores e o vento no rosto, vivemos a liberdade e a camaradagem. Organizamos rolês épicos, encontros mensais e ações que fortalecem nossa comunidade em Santa Catarina. É mais que um clube, é um estilo de vida.
+      </p>
+    </div>
+  </section>
+
+  <!-- Eventos -->
+  <section id="eventos" class="py-20 bg-black bg-opacity-80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-green-500 mb-8 text-center tracking-wide">Eventos</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-900 p-6 border-2 border-gray-600 shadow-xl">
+          <h3 class="text-2xl font-semibold text-white mb-2">Passeio Anual</h3>
+          <p class="text-gray-300">Uma viagem lendária pelas serras, reunindo irmãos de todo o Brasil.</p>
+        </div>
+        <div class="bg-gray-900 p-6 border-2 border-gray-600 shadow-xl">
+          <h3 class="text-2xl font-semibold text-white mb-2">Encontro Mensal</h3>
+          <p class="text-gray-300">Todo primeiro sábado, nos reunimos pra trocar ideias e planejar o próximo rolê.</p>
+        </div>
+        <div class="bg-gray-900 p-6 border-2 border-gray-600 shadow-xl">
+          <h3 class="text-2xl font-semibold text-white mb-2">Ação Social</h3>
+          <p class="text-gray-300">Juntamos forças pra ajudar comunidades, com o coração na estrada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-green-500 mb-8 text-center tracking-wide">Galeria</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <img src="imagens/grupo-moto-clube_1.png" alt="Grupo do Moto Clube 7.62" class="gallery-image rounded-none border-2 border-gray-600 shadow-lg">
+        <img src="imagens/evento1.png" alt="Evento do Moto Clube" class="gallery-image rounded-none border-2 border-gray-600 shadow-lg">
+        <img src="imagens/evento2.png" alt="Evento do Moto Clube" class="gallery-image rounded-none border-2 border-gray-600 shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Hierarquia do Clube -->
+  <section id="hierarquia" class="py-20 bg-black bg-opacity-80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="hierarchy-title">Hierarquia do Clube</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Presidente -->
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="imagens/presidente.jpg" alt="Presidente do Moto Clube">
+          </div>
+          <h3 class="member-name">Nome do Presidente</h3>
+          <p class="member-role">Presidente</p>
+          <p class="member-description">
+            Líder do Moto Clube 7.62, responsável por coordenar todas as atividades e representar o clube.
+          </p>
+        </div>
+
+        <!-- Vice-Presidente -->
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="imagens/vice-presidente.jpg" alt="Vice-Presidente do Moto Clube">
+          </div>
+          <h3 class="member-name">Nome do Vice-Presidente</h3>
+          <p class="member-role">Vice-Presidente</p>
+          <p class="member-description">
+            Apoia o presidente em todas as decisões e assume a liderança quando necessário.
+          </p>
+        </div>
+
+        <!-- Tesoureiro -->
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="imagens/tesoureiro.jpg" alt="Tesoureiro do Moto Clube">
+          </div>
+          <h3 class="member-name">Nome do Tesoureiro</h3>
+          <p class="member-role">Tesoureiro</p>
+          <p class="member-description">
+            Gerencia as finanças do clube e organiza os recursos para eventos e atividades.
+          </p>
+        </div>
+
+        <!-- Membro Fundador -->
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="imagens/fundador.jpg" alt="Membro Fundador">
+          </div>
+          <h3 class="member-name">Nome do Fundador</h3>
+          <p class="member-role">Membro Fundador</p>
+          <p class="member-description">
+            Um dos fundadores do Moto Clube 7.62, com vasta experiência e história no clube.
+          </p>
+        </div>
+
+        <!-- Membro Sênior -->
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="imagens/senior.jpg" alt="Membro Sênior">
+          </div>
+          <h3 class="member-name">Nome do Membro Sênior</h3>
+          <p class="member-role">Membro Sênior</p>
+          <p class="member-description">
+            Membro de longa data, conhecido por sua dedicação e contribuições ao clube.
+          </p>
+        </div>
+
+        <!-- Membro Ativo -->
+        <div class="member-card">
+          <div class="member-photo">
+            <img src="imagens/ativo.jpg" alt="Membro Ativo">
+          </div>
+          <h3 class="member-name">Nome do Membro Ativo</h3>
+          <p class="member-role">Membro Ativo</p>
+          <p class="member-description">
+            Participante ativo em eventos e atividades, contribuindo para o crescimento do clube.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-gray-300 text-xl">© 2025 Moto Clube 7.62. Forjado na Estrada.</p>
+      <div class="social-links">
+        <a href="https://instagram.com/motoclube762" target="_blank" class="social-link">
+          <i class="fab fa-instagram"></i> @motoclube762
+        </a>
+        <a href="https://wa.me/5548999999999" target="_blank" class="social-link">
+          <i class="fab fa-whatsapp"></i> (48) 99999-9999
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botões flutuantes de redes sociais -->
+  <div class="social-buttons">
+    <a href="https://instagram.com/motoclube762" target="_blank" class="social-button instagram-button">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/5548999999999" target="_blank" class="social-button whatsapp-button">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Font Awesome para os ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="js/script.js"></script>
+</body>
+</html> 
